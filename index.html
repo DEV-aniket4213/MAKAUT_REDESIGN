@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MAKAUT Student Hub - an independent student project demo portal.">
+  <title>Home | MAKAUT Student Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<div class="demo-bar">Independent student project &middot; Not affiliated with MAKAUT &middot; Official site: <a href="https://www.makautwb.ac.in/" target="_blank" rel="noopener">makautwb.ac.in</a></div>
+<!-- Header and navigation (same on every page) -->
+<header class="site-header">
+  <div class="container header-row">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">M</span>MAKAUT Student Hub</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+    <label for="nav-toggle" class="nav-button">Menu</label>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li class="has-dropdown"><a href="examination.html">Examination &#9662;</a>
+          <div class="dropdown"><a href="examination.html#schedule">Schedule</a><a href="examination.html#admit">Admit card</a><a href="examination.html#guidelines">Guidelines</a></div></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="notices.html">Notices</a></li>
+        <li><a href="syllabus.html">Syllabus</a></li>
+        <li><a href="academics.html#resources">Student Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <form class="search" role="search" action="#"><label class="skip" for="q">Search</label><input id="q" type="search" placeholder="Search (demo only)"><button type="button">Search</button></form>
+      <div class="profile-chip"><span class="avatar" aria-hidden="true">AS</span><span>Arjun Sen <span class="demo">demo</span></span></div>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="container">
+    <h1>Your Academic Journey, Simplified.</h1>
+    <p>Find syllabi, exam information, notices and study resources in one place, so you spend less time searching and more time learning.</p>
+    <p><a class="btn" href="notices.html">See latest notices</a> <a class="btn btn-outline" style="color:#fff;border-color:#fff" href="syllabus.html">Browse syllabus</a></p>
+  </div>
+</section>
+
+<!-- Quick-access dashboard -->
+<section class="section" aria-labelledby="quick-title">
+  <div class="container">
+    <h2 id="quick-title">Quick access</h2>
+    <div class="grid">
+      <article class="card"><div class="icon" aria-hidden="true">&#127891;</div><h3>Examination Results</h3><p>Open the result lookup demo.</p><a class="link" href="results.html">Go to results</a></article>
+      <article class="card"><div class="icon" aria-hidden="true">&#128197;</div><h3>Exam Routine</h3><p>Sample exam schedule layout.</p><a class="link" href="examination.html#schedule">View routine</a></article>
+      <article class="card"><div class="icon" aria-hidden="true">&#127903;</div><h3>Admit Card Information</h3><p>What to know before exam day.</p><a class="link" href="examination.html#admit">Read details</a></article>
+      <article class="card"><div class="icon" aria-hidden="true">&#128214;</div><h3>Syllabus</h3><p>B.Tech CSE and Data Science.</p><a class="link" href="syllabus.html">Open syllabus</a></article>
+      <article class="card"><div class="icon" aria-hidden="true">&#128226;</div><h3>Academic Notices</h3><p>Sample announcements.</p><a class="link" href="notices.html">Read notices</a></article>
+      <article class="card"><div class="icon" aria-hidden="true">&#128209;</div><h3>Previous Year Question Papers</h3><p>Practice by semester.</p><a class="link" href="academics.html#papers">Find papers</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container two-col">
+    <div>
+      <div class="section-head"><h2>Latest notices</h2><span class="demo">Demonstration content</span></div>
+      <article class="notice"><div><h3>Sample: Even semester examination schedule</h3><small>12 Jan 2026 &middot; <span class="tag">Examination</span></small></div><a href="notices.html">View Notice</a></article>
+      <article class="notice"><div><h3>Sample: Registration window for new session</h3><small>08 Jan 2026 &middot; <span class="tag">Registration</span></small></div><a href="notices.html">View Notice</a></article>
+      <article class="notice"><div><h3>Sample: Revised academic calendar</h3><small>03 Jan 2026 &middot; <span class="tag">Academic</span></small></div><a href="notices.html">View Notice</a></article>
+    </div>
+    <!-- Student profile card -->
+    <aside class="card" aria-labelledby="profile-title">
+      <span class="demo">Demo data</span>
+      <h2 id="profile-title">Student profile</h2>
+      <dl class="profile">
+        <dt>Name</dt><dd>Arjun Sen</dd>
+        <dt>Course</dt><dd>B.Tech Computer Science and Engineering</dd>
+        <dt>Specialization</dt><dd>Data Science</dd>
+        <dt>Semester</dt><dd>5th</dd>
+        <dt>Roll no.</dt><dd>SAMPLE-0000000</dd>
+      </dl>
+    </aside>
+  </div>
+</section>
+</main>
+<!-- Footer (same on every page) -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <section><h2>About the portal</h2><p>MAKAUT Student Hub is a demonstration project that shows how a university student portal could look. All names, notices and results are sample content.</p></section>
+      <section><h2>Quick links</h2><ul><li><a href="index.html">Home</a></li><li><a href="notices.html">Notices</a></li><li><a href="syllabus.html">Syllabus</a></li><li><a href="contact.html">Contact</a></li></ul></section>
+      <section><h2>Examination resources</h2><ul><li><a href="examination.html">Exam schedule</a></li><li><a href="results.html">Result lookup (demo)</a></li><li><a href="https://makautexam.net/" target="_blank" rel="noopener">makautexam.net</a></li></ul></section>
+      <section><h2>Official website</h2><p><a href="https://www.makautwb.ac.in/" target="_blank" rel="noopener">www.makautwb.ac.in</a><br>Always verify dates and results there.</p></section>
+    </div>
+    <p class="copyright">&copy; 2026 MAKAUT Student Hub. An independent student project, not officially affiliated with or endorsed by Maulana Abul Kalam Azad University of Technology.</p>
+  </div>
+</footer>
+</body>
+</html>
